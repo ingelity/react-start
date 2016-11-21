@@ -1,0 +1,6 @@
+node_modules
+.vagrant
+.tmp
+*.log
+assets/*.min.*
+
