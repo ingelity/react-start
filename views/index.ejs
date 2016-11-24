@@ -13,6 +13,22 @@
   <body>
     <div id="reactApp"></div>
 
+    <!-- This script adds the Roboto font to the project. For details go to:
+    http://www.google.com/fonts#UsePlace:use/Collection:Roboto:400,300,500 -->
+    <script>
+      var WebFontConfig = {
+        google: { families: ['Roboto:400,300,500:latin'] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
+    
     <%if (env !== 'development') { %>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react-dom.min.js"></script>
