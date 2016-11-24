@@ -8,6 +8,7 @@
     "react",
     "redux",
     "material-ui",
+    "flowtype",
     "webpack",
     "es6",
     "babel",
