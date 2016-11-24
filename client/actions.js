@@ -1,0 +1,1 @@
+export const HEADLINE_SUCCESS = 'HEADLINE_SUCCESS';
