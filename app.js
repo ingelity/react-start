@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('assets'));
 
 app.set('views', `${__dirname}/views`);
-app.get('/', function (req, res) {
+app.get('/*', function (req, res) {
   res.render('index', { env });
 });
 
