@@ -12,8 +12,6 @@ module.exports = {
     filename: 'bundle.min.js',
   },
 
-  devtool: 'source-map',
-
   externals: {
     // need to use react's production version, which we include as an external script in index.ejs,
     // and which exposes react as a global variable window.React.
