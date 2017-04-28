@@ -21,7 +21,7 @@ module.exports = {
     publicPath: 'http://localhost:9001/',
   },
 
-  devtool: 'eval',
+  devtool: 'cheap-module-eval-source-map',
 
   plugins: [
     // if errors found during compiling, skips emitting assets that include errors
